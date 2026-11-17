@@ -3,7 +3,7 @@ workflows:
   bike-eyes-android:
     name: BIKE EYES Android APK
     max_build_duration: 120
-    instance_type: linux_x2
+    instance_type: linux
 
     scripts:
       - name: Check Gradle
